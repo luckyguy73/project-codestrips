@@ -20,6 +20,6 @@ db.serialize(() => {
     if (err) {
       throw err;
     }
-    console.log(`Finished seeding. There are ${rows.length} rows into the Strip table.`);
+    console.log(`Finished seeding. There are ${rows.length} rows in the Strip table.`);
   });
 });
